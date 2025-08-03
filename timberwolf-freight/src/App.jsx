@@ -184,16 +184,15 @@ function App() {
                   fontStyle: "italic",
                 }}
               >
-                "Timberwolf Freight is a family-owned freight transportation
-                company based out of Minnesota. My wife and I built this
-                business on three simple principles: being smart with our
-                approach, lean in our operations, and relentless in our pursuit
-                of excellence. We understand that your freight isn't just cargo,
-                it's your livelihood, and we treat it that way. Whether you need
-                full truckload, LTL, or specialized freight services, we're here
-                to get your goods where they need to go, on time and intact,
-                with the personal touch that only comes from a family business
-                that truly cares about your success."
+                "My wife and I built this business on three simple principles:
+                being smart with our approach, lean in our operations, and
+                relentless in our pursuit of excellence. We understand that your
+                freight isn't just cargo, it's your livelihood, and we treat it
+                that way. Whether you need full truckload, LTL, or specialized
+                freight services, we're here to get your goods where they need
+                to go, on time and intact, with the personal touch that only
+                comes from a family business that truly cares about your
+                success."
               </Typography>
               <Typography
                 variant="body2"
