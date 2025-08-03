@@ -1,7 +1,7 @@
 [build]
   base = "timberwolf-freight"
   command = "npm run build"
-  publish = "timberwolf-freight/dist"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
