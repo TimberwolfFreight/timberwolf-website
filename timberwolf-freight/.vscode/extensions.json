@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
