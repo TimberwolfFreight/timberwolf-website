@@ -97,9 +97,10 @@ function App() {
                     fontFamily: "Playfair Display, serif",
                     letterSpacing: 2,
                     textTransform: "uppercase",
-                    fontSize: { xs: "2rem", sm: "2.4rem", md: "2.7rem" },
+                    fontSize: { xs: "2.8rem", sm: "3.6rem", md: "4.2rem" },
                     opacity: 0.97,
-                    mb: 0,
+                    mb: 6,
+                    mt: "60px",
                   }}
                 >
                   Timberwolf Freight
