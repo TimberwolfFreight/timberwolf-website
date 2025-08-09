@@ -8,16 +8,16 @@ function Contact() {
     <section
       id="contact"
       style={{
-        width: "100%",
+        width: "100vw",
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         background: "linear-gradient(180deg, #23243a 0%, #2c2d3f 100%)",
-        minHeight: 480,
-        paddingTop: "6vw",
-        paddingBottom: "6vw",
+        padding: "6vw 5vw",
         animation: "fadeIn 1.2s 0.2s ease",
         fontFamily: "Montserrat, sans-serif",
+        boxSizing: "border-box",
       }}
     >
       <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center" }}>
@@ -143,6 +143,7 @@ function Contact() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            mb: 3, // Add more space below
           }}
         >
           Connect with us:

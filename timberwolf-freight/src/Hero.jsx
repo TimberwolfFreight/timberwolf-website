@@ -14,22 +14,19 @@ function Hero({ children }) {
         id="hero"
         sx={{
           position: "relative",
-          minHeight: { xs: "380px", md: "70vh" },
-          height: { xs: "50vh", md: "70vh" },
+          minHeight: { xs: "380px", md: "60vh" },
           width: "100vw",
-          maxWidth: "100vw",
-          left: "50%",
-          right: "50%",
-          transform: "translate(-50%, 0)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          justifyContent: "flex-start",
+          justifyContent: "center",
           background: "#0a0a0a",
           borderRadius: 0,
           overflow: "hidden",
           marginBottom: 0,
           animation: "fadeIn 1.2s ease",
+          boxSizing: "border-box",
+          padding: "6vw 5vw",
         }}
       >
         {location.pathname === "/services" ? (
@@ -163,7 +160,7 @@ function Hero({ children }) {
           width: "100%",
           zIndex: 2,
           position: "relative",
-              fontFamily: "Montserrat, sans-serif",
+          fontFamily: "Montserrat, sans-serif",
         }}
       >
         {children}

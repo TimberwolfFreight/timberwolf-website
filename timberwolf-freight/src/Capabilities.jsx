@@ -6,19 +6,28 @@ function Capabilities() {
     <section
       id="capabilities"
       style={{
-        width: "100%",
+        width: "100vw",
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         background: "linear-gradient(180deg, #23243a 0%, #2c2d3f 100%)",
-        minHeight: 480,
-        paddingTop: "6vw",
-        paddingBottom: "6vw",
+        padding: "6vw 5vw",
         animation: "fadeIn 1.2s 0.2s ease",
         fontFamily: "Bangers, Comic Sans MS, cursive",
+        boxSizing: "border-box",
       }}
     >
-      <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center", px: { xs: 3, sm: 4, md: 0 }, width: "100%" }}>
+      <Box
+        sx={{
+          maxWidth: "100%",
+          mx: "auto",
+          textAlign: "center",
+          px: { xs: 3, sm: 4, md: 0 }, // Increase right/left padding for mobile
+          width: "100%",
+          overflowWrap: "break-word",
+        }}
+      >
         <Typography
           variant="h2"
           sx={{
