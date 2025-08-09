@@ -17,7 +17,7 @@ function Contact() {
         paddingTop: "6vw",
         paddingBottom: "6vw",
         animation: "fadeIn 1.2s 0.2s ease",
-        fontFamily: "Bangers, Comic Sans MS, cursive",
+        fontFamily: "Montserrat, sans-serif",
       }}
     >
       <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center" }}>
@@ -27,7 +27,7 @@ function Contact() {
             color: "#fff",
             fontWeight: 700,
             mb: 2,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             fontSize: { xs: "2rem", md: "2.8rem" },
             wordBreak: "break-word",
           }}
@@ -41,7 +41,7 @@ function Contact() {
             color: "#bdbdbd",
             fontSize: { xs: "1.2rem", md: "1.4rem" },
             mb: 3,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             fontStyle: "italic",
             textAlign: "center",
             lineHeight: 1.5,
@@ -76,7 +76,7 @@ function Contact() {
               border: "none",
               marginBottom: "12px",
               fontSize: "1.1rem",
-              fontFamily: "Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               background: "#111",
               color: "#fff",
             }}
@@ -90,7 +90,7 @@ function Contact() {
               border: "none",
               marginBottom: "12px",
               fontSize: "1.1rem",
-              fontFamily: "Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               background: "#111",
               color: "#fff",
             }}
@@ -104,7 +104,7 @@ function Contact() {
               border: "none",
               marginBottom: "12px",
               fontSize: "1.1rem",
-              fontFamily: "Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               resize: "vertical",
               background: "#111",
               color: "#fff",
@@ -116,7 +116,7 @@ function Contact() {
               background: "#222",
               color: "#fff",
               fontWeight: 700,
-              fontFamily: "Bangers, Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               border: "none",
               borderRadius: "6px",
               padding: "12px 0",
@@ -139,7 +139,7 @@ function Contact() {
             textAlign: "center",
             fontSize: { xs: "1.1rem", md: "1.3rem" },
             letterSpacing: 1,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",

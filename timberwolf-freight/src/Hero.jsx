@@ -118,7 +118,7 @@ function Hero({ children }) {
             position: "absolute",
             top: 25,
             left: 0,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
           }}
         >
           <Typography
@@ -128,7 +128,7 @@ function Hero({ children }) {
               fontWeight: 800,
               fontSize: { xs: "2rem", md: "2.8rem" },
               mb: 1,
-              fontFamily: "Bangers, Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               letterSpacing: 2,
               textShadow: "0 2px 16px rgba(0,0,0,0.38)",
             }}
@@ -143,7 +143,7 @@ function Hero({ children }) {
               fontSize: { xs: "2.6rem", md: "4rem" },
               mt: 16,
               mb: 2,
-              fontFamily: "Bangers, Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               textShadow: "0 2px 8px rgba(0,0,0,0.28)",
             }}
           >
@@ -163,7 +163,7 @@ function Hero({ children }) {
           width: "100%",
           zIndex: 2,
           position: "relative",
-          fontFamily: "Bangers, Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
         }}
       >
         {children}

@@ -16,7 +16,7 @@ function Services() {
         paddingTop: "6vw",
         paddingBottom: "6vw",
         animation: "fadeIn 1.2s 0.2s ease",
-        fontFamily: "Bangers, Comic Sans MS, cursive",
+        fontFamily: "Montserrat, sans-serif",
       }}
     >
       <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center" }}>
@@ -26,7 +26,7 @@ function Services() {
             color: "#fff",
             fontWeight: 700,
             mb: 2,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             fontSize: { xs: "2rem", md: "2.8rem" },
             wordBreak: "break-word",
           }}
@@ -39,7 +39,7 @@ function Services() {
             style={{
               color: "#bdbdbd",
               fontSize: "1.4rem", // Match About page quote size
-              fontFamily: "Bangers, Comic Sans MS, cursive",
+              fontFamily: "Montserrat, sans-serif",
               textAlign: "left",
               paddingLeft: "1.5em",
               lineHeight: 1.6,

@@ -16,7 +16,7 @@ function Testimonials() {
         paddingTop: "6vw",
         paddingBottom: "6vw",
         animation: "fadeIn 1.2s 0.2s ease",
-        fontFamily: "Bangers, Comic Sans MS, cursive",
+        fontFamily: "Montserrat, sans-serif",
       }}
     >
       <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center" }}>
@@ -26,7 +26,7 @@ function Testimonials() {
             color: "#fff",
             fontWeight: 700,
             mb: 2,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             fontSize: { xs: "2rem", md: "2.8rem" },
             wordBreak: "break-word",
           }}
@@ -40,7 +40,7 @@ function Testimonials() {
             color: "#bdbdbd",
             fontSize: { xs: "1.2rem", md: "1.4rem" },
             mb: 3,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             fontStyle: "italic",
             textAlign: "center",
             lineHeight: 1.5,
@@ -60,7 +60,7 @@ function Testimonials() {
             textAlign: "center",
             fontSize: { xs: "1.1rem", md: "1.3rem" },
             letterSpacing: 1,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",

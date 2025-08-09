@@ -8,7 +8,7 @@ function Footer() {
         width: "100vw",
         background: "#181828",
         color: "#fff",
-        fontFamily: "Bangers, Comic Sans MS, cursive",
+        fontFamily: "Montserrat, sans-serif",
         fontSize: "1.375rem", // 25% larger
         letterSpacing: 1,
         textAlign: "center",

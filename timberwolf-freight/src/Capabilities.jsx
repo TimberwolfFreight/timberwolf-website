@@ -18,16 +18,17 @@ function Capabilities() {
         fontFamily: "Bangers, Comic Sans MS, cursive",
       }}
     >
-      <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center" }}>
+      <Box sx={{ maxWidth: 900, mx: "auto", textAlign: "center", px: { xs: 3, sm: 4, md: 0 }, width: "100%" }}>
         <Typography
           variant="h2"
           sx={{
             color: "#fff",
             fontWeight: 700,
             mb: 2,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
-            fontSize: { xs: "2rem", md: "2.8rem" },
+            fontFamily: "Montserrat, sans-serif",
+            fontSize: { xs: "1.5rem", sm: "2rem", md: "2.8rem" },
             wordBreak: "break-word",
+            px: { xs: 1, md: 0 },
           }}
         >
           Capabilities Statement
@@ -41,6 +42,10 @@ function Capabilities() {
             border: "2px solid #222",
             borderRadius: 8,
             marginBottom: 24,
+            maxWidth: "100%",
+            boxSizing: "border-box",
+            paddingLeft: 0,
+            paddingRight: 0,
           }}
         />
         <a
@@ -52,13 +57,15 @@ function Capabilities() {
             padding: "0.8rem 2rem",
             borderRadius: 4,
             fontWeight: 700,
-            fontFamily: "Bangers, Comic Sans MS, cursive",
+            fontFamily: "Montserrat, sans-serif",
             textDecoration: "none",
-            fontSize: "1.2rem",
+            fontSize: "1.1rem",
             marginTop: 8,
             boxShadow: "0 2px 8px rgba(0,0,0,0.12)",
             display: "inline-block",
             transition: "background 0.2s, box-shadow 0.2s",
+            width: "100%",
+            maxWidth: 320,
           }}
           onMouseOver={(e) => {
             e.currentTarget.style.background = "#444";
