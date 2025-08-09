@@ -47,8 +47,13 @@ function Services() {
               width: "100%",
             }}
           >
-            <li>Full Truckload (FTL) and Less Than Truckload (LTL) solutions</li>
-            <li>Specialized freight for oversized, fragile, or high-value shipments</li>
+            <li>
+              Full Truckload (FTL) and Less Than Truckload (LTL) solutions
+            </li>
+            <li>
+              Specialized freight for oversized, fragile, or high-value
+              shipments
+            </li>
             <li>Nationwide coverage and real-time tracking</li>
             <li>Custom logistics planning and dedicated customer support</li>
             <li>Compliance with all industry standards and regulations</li>
